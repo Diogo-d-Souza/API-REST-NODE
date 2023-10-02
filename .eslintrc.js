@@ -29,5 +29,6 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "no-console": "off",
     "class-methods-use-this": "off",
+    "import/first": "off",
   },
 };
