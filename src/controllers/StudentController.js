@@ -19,7 +19,7 @@ class StudentController {
       ],
       include: {
         model: Photo,
-        attributes: ["filename"],
+        attributes: ["url", "filename"],
       },
     });
     res.json(students);
@@ -90,7 +90,7 @@ class StudentController {
         ],
         include: {
           model: Photo,
-          attributes: ["filename"],
+          attributes: ["url", "filename"],
         },
       });
 
